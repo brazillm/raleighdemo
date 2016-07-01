@@ -1,0 +1,57 @@
+.menu li {
+display:inline;
+border: 2px solid blue;
+padding:10px;
+background-color: teal;
+}
+.menu a {
+color:white;
+text-decoration: none;
+}
+
+.logo {
+float: left;
+text-transform: uppercase;
+ }
+
+.menu {
+  float: right;
+}
+
+.header{
+  clear: both;
+height: 450px;
+background-image: url('../images/tree.jpeg');
+background-position: center;
+}
+.headerbox{
+  width: 500px;
+  height:200px;
+  background:white;
+  margin-left: 100px;
+  top: 50%;
+  transform: translateY(-50%);;
+  position: relative;
+}
+
+.body {
+background:white;
+height: 450px;
+padding-left: 150px;
+padding-right: 150px;
+margin-left: 150px;
+margin-right: 150px;
+
+
+}
+.leftcolum {
+float:left;
+width: 49%;
+margin-right: 1%;
+}
+.rightcolum {
+float:right;
+width:49%;
+margin-left: 1%;
+
+}
